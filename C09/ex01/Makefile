@@ -6,7 +6,7 @@
 #    By: cmarques <cmarques@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/11 17:36:13 by cmarques          #+#    #+#              #
-#    Updated: 2026/02/11 20:04:08 by cmarques         ###   ########.fr        #
+#    Updated: 2026/02/18 18:28:03 by cmarques         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,14 +24,14 @@ SRC = $(SRC_DIR)/ft_putchar.c \
       $(SRC_DIR)/ft_strlen.c \
       $(SRC_DIR)/ft_strcmp.c
 
-OBJ = $(src:.c=.o)
+OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 
-%.o: $(SRC_DIR)/%.c
+$(SRC_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) -I$(INC_DIR) -c $< -o $@
 
 clean:

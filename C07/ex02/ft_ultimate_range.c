@@ -6,11 +6,10 @@
 /*   By: cmarques <cmarques@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/05 22:41:32 by cmarques          #+#    #+#             */
-/*   Updated: 2026/02/09 19:25:50 by cmarques         ###   ########.fr       */
+/*   Updated: 2026/02/19 14:02:06 by cmarques         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include <stdlib.h>
 
 int	ft_ultimate_range(int **range, int min, int max)

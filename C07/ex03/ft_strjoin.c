@@ -6,12 +6,11 @@
 /*   By: cmarques <cmarques@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/09 19:24:17 by cmarques          #+#    #+#             */
-/*   Updated: 2026/02/10 09:46:45 by cmarques         ###   ########.fr       */
+/*   Updated: 2026/02/19 14:02:26 by cmarques         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
 
 int	ft_strslen(char **strs, int size)
 {
